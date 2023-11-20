@@ -1,7 +1,7 @@
 import type { User } from "@/utils";
 export default function UserCard({ user }: { user: User }) {
   return (
-    <div className="flex flex-col gap-1 items-center">
+    <div className="flex flex-col flex-1 gap-1 items-center">
       <img
         src={user.avatar}
         alt={user.first_name}
