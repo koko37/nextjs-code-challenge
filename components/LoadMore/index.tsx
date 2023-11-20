@@ -34,7 +34,7 @@ export default function LoadMore({
         <button
           onClick={loadMore}
           disabled={pageNo > total || loading}
-          className="bg-teal-600 enabled:hover:bg-teal-700 disabled:opacity-75 text-white rounded-md px-4 py-2 mb-2"
+          className="bg-teal-600 enabled:hover:bg-teal-700 disabled:opacity-25 text-white rounded-md px-4 py-2 mb-2"
         >
           Load more
         </button>
